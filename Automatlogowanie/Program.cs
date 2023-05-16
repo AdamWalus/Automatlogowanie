@@ -5,8 +5,16 @@ using System;
 using System.Net.Http;
 class Program
 {
+    class PrivateData
+    {
+        public string accessKey = "";
+    }
+
     static void Main(string[] args)
     {
+        
+        
+
         IWebDriver driver = new ChromeDriver();
         driver.Navigate().GoToUrl("https://revolut.me/adaman4gk");
         
@@ -34,9 +42,9 @@ class Program
 
     static decimal GetExchangeRate(string baseCurrency, string targetCurrency)
     {
-        string accessKey = "access"; 
+        PrivateData privatedata = new PrivateData();
 
-        string url = $"http://apilayer.net/api/live?access_key={accessKey}&source={baseCurrency}&currencies={targetCurrency}";
+        string url = $"http://apilayer.net/api/live?access_key={privatedata.accessKey}&source={baseCurrency}&currencies={targetCurrency}";
 
         using (HttpClient client = new HttpClient())
         {
