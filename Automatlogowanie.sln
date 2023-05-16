@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automatlogowanie", "Automatlogowanie\Automatlogowanie.csproj", "{53DE398B-340F-46AD-954F-FF4689B0A429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53DE398B-340F-46AD-954F-FF4689B0A429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DE398B-340F-46AD-954F-FF4689B0A429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DE398B-340F-46AD-954F-FF4689B0A429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DE398B-340F-46AD-954F-FF4689B0A429}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {494DBE91-90A1-4518-8A6D-BBBB5B36B486}
+	EndGlobalSection
+EndGlobal
